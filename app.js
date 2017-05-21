@@ -51,14 +51,15 @@
         cover.showDescription =! cover.showDescription;
       },
       playerController: function(cover){
-        if (data.playing != null) {
-          soundManager.stop(data.playing);
+        if (this.playing != null) {
+          soundManager.stop(this.playing);
+          this.playing = null;
         }
-        else if (data.playing == cover.id) {
-          soundManager.pause(data.playing);
+        else if (this.playing == cover.id) {
+          soundManager.pause(this.playing);
         }
         else {
-          data.playing = cover.id;
+          this.playing = cover.id;
           const play = soundManager.createSound({
             id: cover.id,
             url: cover.mainMusic,

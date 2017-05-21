@@ -35,24 +35,24 @@ body {
 }
 
 .play {
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.7);
-    border: none;
-    border-radius: 100%;
-    padding: 14px 25px;
-    font-size: 32px;
-    top: 50%;
-    right: 50%;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
-    width: 76px;
-    height: 76px;
-    margin-right: calc(76px / -2);
-    margin-top: calc(76px / -2);
-    cursor: pointer;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 100%;
+  padding: 14px 25px;
+  font-size: 32px;
+  top: 50%;
+  right: 50%;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  width: 76px;
+  height: 76px;
+  margin-right: calc(76px / -2);
+  margin-top: calc(76px / -2);
+  cursor: pointer;
 }
 
 .play:hover {
-    background-color: rgba(255, 255, 255, 0.79);
+  background-color: rgba(255, 255, 255, 0.79);
 }
 
 .cover-description {
